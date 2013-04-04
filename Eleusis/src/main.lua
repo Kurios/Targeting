@@ -1,4 +1,5 @@
-local function main()
 
+local function main()
+	dofile("multiTarget.lua")
 end
 main()

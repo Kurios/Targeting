@@ -43,8 +43,6 @@ Notes and Comments:
 
 	tarsys  - an array, representitive of all collective methods and internal variables used in this system.
 	tarsys.targets - Strings, in a queue, for piority targeting.
-	tarsys.addTarget(target)
-	tarsys.removeTarget(target)
 	tarsys.target() <- a better way to get the current target. (Actually does computations based on room).
 	target - a single string, representing the currently set target.
 	
@@ -52,6 +50,14 @@ Notes and Comments:
 **System Construction:**
 
 The system will be constructed with external files, using a single mudlet-compatable wrapper, that loads the files from the filesystem.
+
+**General System Commands**
+
+This revision of the Combat System will include a second line to the system call.
+
+	pt I'm taking command
+	
+This identifies this as a system that meets the non-legacy standard, and switches the targeting system out of legacy mode.
 
 
 4.0 Multi-Targeting System
